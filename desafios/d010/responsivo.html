@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  teste de responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        h1{
+            text-align: center;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius:10px ;
+
+            min-width: 300px ;
+            max-width: 800px ;
+            margin: auto
+            ;
+        }
+
+        img{
+            width: 100%;
+        }
+        div{
+            background-color: lightblue;
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 5px;
+            text-align: center;
+            padding: 20px 10px 5px 10px;
+        }
+
+        #d1{
+            margin-top: 10px;
+        }
+        #d2{
+            margin-top: 5px;
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+
+        div:hover{
+            background-color: antiquewhite;
+            color: black;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+        }
+        footer{
+            margin-top: 10px;
+            background-color: black;
+            text-align: center;
+            color: aliceblue;
+
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando resaponsividade</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat dolores, aperiam animi vero repudiandae, saepe beatae culpa nihil deserunt a quo officiis ex laboriosam voluptas ipsa cum suscipit fugit eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, dignissimos nesciunt hic numquam repellat excepturi pariatur nihil cumque, inventore eos optio tenetur voluptatem tempora mollitia ipsam, consequatur aliquam quidem similique. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam recusandae quibusdam id quisquam ab fugiat temporibus odio veritatis beatae consectetur nulla natus sint magnam culpa pariatur, ducimus dicta iusto iure?</p>
+        <picture>
+            <source media="(max-width:600px )" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, cum. At, officiis esse. Aliquid laudantium amet beatae dolorem, distinctio quidem eius tempore atque delectus molestias. Nihil esse consequatur earum magni? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum ipsum illum aspernatur sequi, officia, totam earum dolores reprehenderit sapiente inventore eum temporibus quod nobis labore. Dolor dicta numquam sequi voluptate. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos dolor cupiditate magni, reprehenderit necessitatibus beatae expedita doloremque neque voluptates, blanditiis vel aspernatur error magnam est in assumenda nihil non facere!</p>
+    
+        <div id="d1">como foi criado o android 
+            <p>Há quase 20 anos, em outubro de 2003, com a intenção de desenvolver um sistema operacional avançado para câmeras digitais, Andy, Rich, Nick e Chris, empresário da tecnologia, fundaram a empresa Android Inc, em Palo Alto, na Califórni</p>
+        </div>
+        <div id="d2">primeiros androids
+            <p>O primeiro smartphone disponível comercialmente rodando o Android foi o HTC Dream, lançado em 22 de outubro de 2008. Eric Schmidt, Andy Rubin, e Hugo Barra na coletiva de imprensa para o lançamento do tablet do Google Nexus 7.</p>
+        </div>
+        <div id="d3">nomes de doces
+            <p>Android 1.5: Cupcake.
+                Android 1.6: Donut.
+                Android 2.0/2.1: Eclair.
+                Android 2.2: Froyo (Frozen Yogurt)
+                Android 2.3: Gingerbread.
+                Android 3.0: Honeycomb.
+                Android 4.0: Ice Cream Sandwich.
+                Android 4.1/4.2/4.3: Jelly Bean</p>
+        </div>
+    </main>    
+        <footer>
+            Criado por direções studio.
+        </footer>
+    </body>    
+</html>
